@@ -102,11 +102,12 @@ console.log(result)
 // TASK 3: CONCERT(parameters)
 
 function concertDisplay(muscialAct){
-    let numTwo = prompt('Please enter the street you live on.')
-    return numTwo
+    let myStreet = prompt('Please enter the street you live on.')
+    let combined = ('It would be great if ' + muscialAct + ' ' + 'played a show on' + ' ' + myStreet)
+    return combined
 }
-let myStreet = concertDisplay()
- console.log(myStreet)
+let myEvent = concertDisplay("musicalAct")
+ console.log(myEvent)
 
 //  ('It would be great if ' + {concertDisplay} + 'played a show on' + {myStreet})
 
